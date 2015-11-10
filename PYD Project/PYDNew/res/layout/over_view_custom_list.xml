@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/over_view_rate_list_background" >
+
+    <ImageView
+        android:id="@+id/imageview_compny_icon_"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/test_snap_deal" />
+
+    <TextView
+        android:id="@+id/textView_rate_tag_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageview_compny_icon_"
+        android:layout_below="@+id/imageview_compny_icon_"
+        android:text="550$"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_buy_now_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_above="@+id/textView_rate_tag_"
+        android:layout_toLeftOf="@+id/imageView_arrow_of_over_view_list"
+        android:text="Buy Now"
+        android:textColor="#555555"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView_arrow_of_over_view_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_rate_tag_"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/pl_arrow" />
+
+</RelativeLayout>

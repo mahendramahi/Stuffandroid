@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/oneRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/ImageView_main_fram_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/banner_img" />
+
+        <ImageView
+            android:id="@+id/ImageView_blure_Image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:alpha=".4"
+            android:background="#101011" />
+
+        <TextView
+            android:id="@+id/textView_Lowest_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="LowestPrice: 550$"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#eeeeee"
+            android:textSize="15dp"
+            
+            />
+
+        <TextView
+            android:id="@+id/textView_Available_From"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView_Lowest_Price"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+        	android:textSize="15dp"
+            android:text="Available from 4 Store"
+            android:textColor="#eeeeee"
+             />
+
+        <TextView
+            android:id="@+id/textView_product_name_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_Lowest_Price"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="81dp"
+            android:text="Apple iphone 5c (white,8GB)"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_category_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_product_name_tag"
+            android:layout_alignTop="@+id/textView_product_name_tag"
+            android:layout_marginTop="40dp"
+            android:text="Category: Smartphones"
+            android:textColor="#eeeeee"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/List_view_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="190dp"
+        android:dividerHeight="6dp"
+        android:divider="#00000000"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

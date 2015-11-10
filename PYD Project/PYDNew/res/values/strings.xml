@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PeelYourDeal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_product_barcode">Scan Product Barcode</string>
+    <string name="get_more_help">Get More Help</string>
+    <string name="tap_here_to_search_product">Tap Here to Search Product</string>
+    <string name="navigation_drawer_open_status"></string>
+    <string name="navigation_drawer_close_status">pyd</string>
+    <string name="internet_error_message">NO INTERNET CONNECTION</string>
+    <string name="scan_page_info">If there are multiple Barcodes on the product and App is unable to find product using one Barcode. Please try with the other Barcodes too. Else use the type text functionality to directly type in product name.</string>
+    
+    <string-array name="navigationDrawer_item">
+        <item>Product List</item>
+        <item>Short</item>
+        <item>Scan Product</item>
+    </string-array>
+    
+    
+    <!--Custom  list data  -->
+    
+    <string-array name="all_tag_list">
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+        <item>Apple iphone 4s</item>
+    </string-array>
+
+    <string-array name="all_sub_tag">
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+        <item>White,8GB</item>
+    </string-array>
+    
+    <string-array name="all_category">
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+        <item>phone</item>
+    </string-array>
+    
+    <string-array name="all_price">
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+        <item>225$</item>
+    </string-array>
+    
+    <string-array name="all_icon">
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+        <item>@drawable/pl_list_img</item>
+    </string-array>
+    
+    <!-- over View Class compeny name  -->
+    <string-array name="all_compeny_icon">
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+        <item>@drawable/test_snap_deal</item>
+    </string-array>
+   
+    <string-array name="all_rate_tag">
+        
+        <item>550$</item>
+        <item>250$</item>
+        <item>550$</item>
+        <item>350$</item>
+        <item>450$</item>
+        <item>250$</item>
+        <item>500$</item>
+        <item>450$</item>
+        <item>250$</item>
+        <item>450$</item>
+        
+    </string-array>
+    
+</resources>

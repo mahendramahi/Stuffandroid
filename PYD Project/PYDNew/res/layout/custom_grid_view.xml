@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/pl_list_img" />
+
+    <TextView
+        android:id="@+id/textView_gid_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Apple iphone 4s"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_grid_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_gid_title"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginTop="2dp"
+        android:textSize="13dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView_gid_title"
+        android:text="white,8gb" />
+
+    <TextView
+        android:id="@+id/textView_grid_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_grid_subtitle"
+        android:layout_alignRight="@+id/textView_grid_subtitle"
+        android:layout_below="@+id/textView_grid_subtitle"
+        android:text="Category"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView_grid_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_grid_category"
+        android:layout_alignRight="@+id/textView_grid_subtitle"
+        android:layout_below="@+id/textView_grid_category"
+        android:text="Price:"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+</RelativeLayout>

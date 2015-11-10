@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColor">#34323e</color>
+    
+    <color name="navigation_list_pressed_effect">#e15a00</color>
+    <color name="navigation_list_unpressed_effect">#34323f</color>
+    
+    <color name="main_fragment_pressed_effect">#ffffff</color>
+    <color name="main_fragment_unpressed_effect">#eeeeee</color>
+    
+    <color name="tinimode">#ffffff</color>
+
+</resources>

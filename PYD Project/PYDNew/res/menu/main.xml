@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pyd.MainActivity" >
+
+    <item
+        android:id="@+id/action_navigate"
+        android:icon="@drawable/header_option"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+   
+</menu>

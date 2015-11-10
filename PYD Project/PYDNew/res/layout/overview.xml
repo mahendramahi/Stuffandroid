@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/Fram_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+        
+        
+        <ImageView 
+            android:id="@+id/framlayout_bacend_image"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:background="@drawable/banner_img"
+            />
+        
+        <ImageView
+            android:id="@+id/framlayput_blure_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:alpha=".5"
+            android:background="#000000" />
+
+        <ListView
+            android:id="@+id/ListView_overview_list_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="290dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView_lower_price_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lower Price: 550$"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#eeeeee"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView_available_from_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available From 4 Store"
+            android:textColor="#eeeeee"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView_main_tag_of_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple iphone 5c (white, 8GB)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView_main_sub_tag_of_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:text="category: SmartPhone"
+            android:textColor="#eeeeee" />
+
+    </FrameLayout>
+
+</RelativeLayout>

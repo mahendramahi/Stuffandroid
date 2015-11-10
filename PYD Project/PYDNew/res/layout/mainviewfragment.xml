@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView 
+        android:id="@+id/main_view_fragment_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:smoothScrollbar="true"
+        android:choiceMode="singleChoice"
+        android:background="@drawable/main_view_fragment_list_effect"
+        />
+
+    <GridView 
+        android:id="@+id/main_view_grid"
+        android:numColumns="2"
+         android:gravity="center"
+        
+         android:stretchMode="columnWidth"
+         android:smoothScrollbar="true"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/main_view_fragment_list_effect">
+    </GridView>
+    
+    <ListView 
+        android:id="@+id/main_view_fragment_full_custom_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:smoothScrollbar="true"
+        android:choiceMode="singleChoice"
+        android:background="@drawable/main_view_fragment_list_effect"
+        /> 
+     
+</RelativeLayout>
